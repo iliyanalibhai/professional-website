@@ -1,15 +1,21 @@
-import React from 'react';
-import './App.css';
-import { BrowserRouter } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./Pages/Home/Navbar";
+import Home from "./Pages/Home/Homescreen";
 
-import Home from './Pages/Home/Homescreen';
-
-// this is gonna work for our navigation
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Router>
+        <div>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="*" element={<div>404 Not Found</div>}></Route>
+          </Routes>
+        </div>
+      </Router>
     </div>
   );
 }
