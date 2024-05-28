@@ -1,52 +1,51 @@
 {
-"skills": [
+  "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
+      "src": "/img/product-chain-1.png",
       "title": "Front-End",
-      "description": "Skilled with technologies such as React.js, Javascript, HTML, and CSS. I have experience in building responsive web applications and websites. I am also familiar with libraries such as Bootstrap and TailwindCSS"
+      "description": "Skilled with technologies such as React.js, Javascript, HTML, and CSS. I have experience in building responsive web applications and websites. I am also familiar with libraries such as Bootstrap and TailwindCSS."
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
+      "src": "/img/tag-1.png",
       "title": "Back-End",
       "description": "Currently embarking on my journey with learning backend technologies such as Node.js, Express.js, and MongoDB. I am also familiar with RESTful APIs and have experience in building simple CRUD applications."
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
+      "src": "/img/feather-pen-2.png",
       "title": "Data Science & AI/ML",
       "description": "Skilled in data analysis and visualization using Python libraries such as Pandas, Numpy, and Matplotlib. I have experience in building machine learning models using libraries such as Scikit-learn and CV2."
     },
     {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
+      "src": "/img/feather-pen-1.png",
       "title": "Software Development",
-      "description": "Skilled in version control with Git and Github. Profiency in Object Oriented Programming with languages such as Python and C++. Putting this all together with my knowledge in unit testing, debugging, and CI/CD."
+      "description": "Skilled in version control with Git and Github. Proficiency in Object Oriented Programming with languages such as Python and C++. Putting this all together with my knowledge in unit testing, debugging, and CI/CD."
     }
   ],
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/movie.png",
+      "src": "/img/movie.png",
       "title": "Filmify",
       "description": "I developed a movie recommendation system with three other developers, working in an Agile environment and consistently meeting sprint goals. Our system was based on user interests, recommending movies using criteria such as the movie name, director, starring actor, and genre. To ensure function integrity, I created test cases for each function using different gtest assertion types, achieving 90% code coverage.",
       "link": "View In Github"
     },
     {
       "id": "2",
-      "src": "./img/projectrishi.png",
+      "src": "/img/projectrishi.png",
       "title": "Rishi Website",
       "description": "The Rishi website was made for the Project Rishi Club at UCR. I leveraged technologies such as Next.js, TailwindCSS, and React to create dynamic content, ensuring a smooth mobile browsing experience. I implemented reusable React components, particularly for the About page, and utilized Tailwind CSS to maintain a consistent color theme and optimize mobile responsiveness. Additionally, I handled code formatting using Prettier.",
       "link": "View In Github"
     },
     {
       "id": "3",
-      "src": "./img/wildlife.png",
+      "src": "/img/wildlife.png",
       "title": "Wildlife Image Classification",
       "description": "I worked on a wildlife image classification project using Python, Pandas, Scikit-Learn, and CV2. I employed CV2 for feature extraction with Histogram of Oriented Gradients, Average RGB, and Edges, simplifying animal feature identification and EDA by analyzing texture, color, and body type. I used K-nearest neighbors to correctly classify coyotes, zebras, and leopards. Additionally, I used unsupervised machine learning algorithms such as K-Means Clustering, effectively finding optimal clusters using the Elbow Method.",
       "link": "View In Github"
     }
   ]
-  
 }

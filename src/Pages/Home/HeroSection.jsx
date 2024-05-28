@@ -52,7 +52,7 @@ export default function HeroSection() {
         <button className="btn btn-primary">Get In Touch</button>
       </div>
       <div className="hero--section--img">
-        <img src="./img/hero_image.png" alt="Hero Section" className="hero_img" />
+        <img src={process.env.PUBLIC_URL + '/img/hero_image.png'} alt="Hero Section" className="hero_img" />
       </div>
     </section>
   );

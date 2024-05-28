@@ -1,3 +1,4 @@
+import React from 'react';
 import data from "../../data/index.json";
 
 export default function MySkills() {
@@ -11,7 +12,7 @@ export default function MySkills() {
         {data?.skills?.map((item, index) => (
           <div key={index} className="skills--section--card">
             <div className="skills--section--img">
-              <img src={item.src} alt="Product Chain" />
+              <img src={process.env.PUBLIC_URL + item.src} alt={item.title} />
             </div>
             <div className="skills--section--card--content">
               <h3 className="skills--section--title">{item.title}</h3>
