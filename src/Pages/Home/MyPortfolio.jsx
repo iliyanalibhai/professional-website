@@ -11,7 +11,7 @@ export default function MyPortfolio() {
         </div>
         <div>
           <a href="https://github.com/iliyanalibhai">
-            <button className="btn btn-github">
+            <button className="btn btn-github" href = "https://github.com/iliyanalibhai">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
